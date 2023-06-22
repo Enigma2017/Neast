@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Intro';
+    src: local('Intro'), url('../../../styles/fonts/intro.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.container {
+    width: 1172px;
+    margin: auto;
+    padding: 0;
+}
+
+.header{
+    background: #ECFDF3;
+    padding: 66px 0 38px 0;
+}
+
+.logoMenu{
+    width: 30%;
+}
+
+.logo1{
+    font-family: 'Intro';
+    font-weight: 400;
+    font-size: 49px;
+    color: #00B397;
+}
+
+.logo2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 31px;
+    color: #007D8C;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navMenu{
+    width: 70%;
+}
+
+.navItems{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navMenu li{
+    list-style-type: none;
+    padding-left: 62px;
+    color: black;
+}
+
+div.btnRegister{
+    display: flex;
+    justify-content: right;
+} 
+
+.navBtn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 240px;
+    height: 60px;
+    background: #28CD8B;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #000000;
+    text-decoration: none;
+    margin-top: -45px;
+}

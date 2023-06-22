@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Intro';
+    src: local('Intro'), url('../../../styles/fonts/intro.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.container {
+    width: 1172px;
+    margin: auto;
+    padding: 0;
+}
+
+.hireHome{
+    background: url(background.png) no-repeat center center;
+    padding: 115px 0 106px 0;
+    background-size: cover;
+    height: 100%;
+}
+
+h1{
+    font-family: 'Intro';
+    font-weight: 400;
+    font-size: 49px;
+    color: #00B397;
+    margin-bottom: 53px;
+}
+
+div.btnHire{
+    display: flex;
+} 
+
+.hireBtn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 80px;
+    background: #28CD8B;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #000000;
+    text-decoration: none;
+    
+}
