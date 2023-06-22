@@ -40,6 +40,11 @@
     flex-wrap: wrap;
 }
 
+.logoLink{
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .navMenu{
     width: 70%;
 }
@@ -47,6 +52,15 @@
 .navItems{
     display: flex;
     justify-content: space-between;
+}
+
+.linkHeaderItem{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .navMenu li{

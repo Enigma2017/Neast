@@ -4,26 +4,13 @@ import '../../../styles/global.css';
 import styles from './Navbar.module.css';
 
 const Navbar = () => {
-  const LinkStyle = {
-    textDecoration: 'none',
-    cursor: 'pointer'
-  };
-
-  const LinkStyleItem = {
-    textDecoration: 'none',
-    cursor: 'pointer',
-    color: '#000000',
-    fontFamily: 'Open Sans',
-    fontSize: '14px',
-    fontWeight: '400'
-  };
 
   return (
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.flex}>
           <div className={styles.logoMenu}>
-            <Link to='/' style={LinkStyle}>
+            <Link to='/' className={styles.logoLink}>
               <p className={styles.logo1}>Neast</p>
               <p className={styles.logo2}>only pro's!</p>
             </Link>
@@ -32,37 +19,37 @@ const Navbar = () => {
             <nav>
               <ul className={styles.navItems}>
                 <li>
-                  <Link to='/about' style={LinkStyleItem}>
+                  <Link to='/about' className={styles.linkHeaderItem}>
                     about us
                   </Link>
                 </li>
                 <li>
-                  <Link to='/freelances' style={LinkStyleItem}>
+                  <Link to='/freelances' className={styles.linkHeaderItem}>
                     freelances
                   </Link>
                 </li>
                 <li>
-                  <Link to='/skills' style={LinkStyleItem}>
+                  <Link to='/skills' className={styles.linkHeaderItem}>
                     skills
                   </Link>
                 </li>
                 <li>
-                  <Link to='/blog' style={LinkStyleItem}>
+                  <Link to='/blog' className={styles.linkHeaderItem}>
                     blog
                   </Link>
                 </li>
                 <li>
-                  <Link to='/prices' style={LinkStyleItem}>
+                  <Link to='/prices' className={styles.linkHeaderItem}>
                     prices
                   </Link>
                 </li>
                 <li>
-                  <Link to='/contact' style={LinkStyleItem}>
+                  <Link to='/contact' className={styles.linkHeaderItem}>
                     contact us
                   </Link>
                 </li>
                 <li>
-                  <Link to='/profile' style={LinkStyleItem}>
+                  <Link to='/profile' className={styles.linkHeaderItem}>
                     my profile
                   </Link>
                 </li>
