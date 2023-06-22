@@ -12,10 +12,10 @@ function ChooseHomeSpecialist() {
       <Router>
         <ChooseHome />
         <Routes>
-          <Route path='/developers' component={Developers} />
-          <Route path='/designers' component={Designers} />
-          <Route path='/project-managers' component={ProjectManagers} />
-          <Route path='/product-managers' component={ProductManagers} />
+          <Route path='/developers' element={<Developers/>} />
+          <Route path='/designers' element={<Designers/>} />
+          <Route path='/project-managers' element={<ProjectManagers/>} />
+          <Route path='/product-managers' element={<ProductManagers/>} />
         </Routes>
       </Router>
     );

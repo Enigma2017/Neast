@@ -9,7 +9,7 @@ function Hire() {
       <Router>
         <HireHome />
         <Routes>
-          <Route path='/hire' component={HireSpecialist} />
+          <Route path='/hire' element={<HireSpecialist/>} />
         </Routes>
       </Router>
     );

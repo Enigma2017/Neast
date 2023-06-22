@@ -17,15 +17,15 @@ function Header() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' exact component={Home} />
-          <Route path='/about' component={About} />
-          <Route path='/freelances' component={Freelances} />
-          <Route path='/skills' component={Skills} />
-          <Route path='/blog' component={Blog} />
-          <Route path='/prices' component={Prices} />
-          <Route path='/contact' component={Contact} />
-          <Route path='/profile' component={Profile} />
-          <Route path='/register' component={Register} />
+          <Route path='/' exact element={<Home/>} />
+          <Route path='/about' element={<About/>} />
+          <Route path='/freelances' element={<Freelances/>} />
+          <Route path='/skills' element={<Skills/>} />
+          <Route path='/blog' element={<Blog/>} />
+          <Route path='/prices' element={<Prices/>} />
+          <Route path='/contact' element={<Contact/>} />
+          <Route path='/profile' element={<Profile/>} />
+          <Route path='/register' element={<Register/>} />
         </Routes>
       </Router>
     );
